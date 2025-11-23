@@ -1,0 +1,22 @@
+NOMBRE POLIZA: SEGURO SALUD TOTAL HACKATHON 2024
+COBERTURA:
+1. ATENCION PRIMARIA (Consultas):
+   - Cobertura: 100% en red preferente.
+   - Copago: $20 USD por visita.
+   
+2. URGENCIAS Y EMERGENCIAS:
+   - Cobertura: 80% del valor total de la factura.
+   - Deducible anual: No aplica.
+   - Deducible por evento: $50 USD.
+
+3. HOSPITALIZACION:
+   - Cobertura: 90% si es programada.
+   - Cobertura: 70% si no fue notificada con 24h de antelación.
+
+EXCLUSIONES:
+- Cirugías estéticas.
+- Tratamientos experimentales.
+- Preexistencias no declaradas.
+
+EJEMPLO DE CALCULO:
+El usuario siempre paga el copago o deducible PRIMERO, y luego el porcentaje no cubierto (coaseguro) sobre el restante.

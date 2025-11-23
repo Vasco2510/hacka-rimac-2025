@@ -1,0 +1,77 @@
+# --- System ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.db
+*.sqlite3
+
+# Virtual envs
+venv/
+env/
+.venv/
+.envrc
+
+# --- Environment / Secrets ---
+.env
+*.env
+.env.*
+secrets.json
+
+# --- Streamlit ---
+.streamlit/credentials.toml
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Streamlit cache
+.streamlit/
+**/__pycache__/
+**/.ipynb_checkpoints/
+
+# --- Logs ---
+*.log
+logs/
+debug.log
+
+# --- Models / LLMs / embeddings ---
+models/
+checkpoints/
+*.bin
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# --- Notebooks ---
+*.ipynb
+.ipynb_checkpoints/
+
+# --- Build / Dist ---
+build/
+dist/
+*.egg-info/
+*.spec
+
+# --- OS / Editor junk ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Node (por si tu app usa algo de frontend) ---
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# --- Temp ---
+tmp/
+temp/
+*.tmp
+*.cache
+.cache/
